@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px palevioletred;    
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-section{
+    margin-bottom: 15px;
+}
+
+.profile-section img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #4a90e2;
+    object-fit: cover;
+}
+
+.profile-section img:hover {
+    transform: scale(1.05);
+}
+
+.rating {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #222;
+    margin-bottom:8px;
+}
+
+.company {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.role {
+    color: grey;
+    margin-bottom:12px;
+}
+
+q {
+    color: #555;
+    font-style: italic;
+}
+
+.card1{
+    border-top: 5px solid #4a90e2;
+}
+
+.card2{
+    border-top: 5px solid #27ae60;
+}
+
+.card3{
+    border-top: 5px solid #e67e22;
+}
